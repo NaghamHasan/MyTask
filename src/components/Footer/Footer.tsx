@@ -10,11 +10,11 @@ const Footer = () => {
   ));
 
   return (
-    <div className="main-color center py-10 md:p-0 relative text-[#E7F2EF] min-h-20 border-t border-slate-100">
-      <div className="container">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+    <div className="main-color center md:p-0 relative text-[#E7F2EF] min-h-20 border-t border-slate-100">
+      <div className="container my-10">
+        <div className="flex flex-col justify-between items-center gap-8">
           <FontAwesomeIcon icon={faListCheck} className="text-2xl" />
-          <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
+          <nav className="flex flex-col sm:flex-row items-center flex-wrap justify-center gap-x-8 gap-y-4">
             {showLinks}
           </nav>
           <div className="text-sm text-slate-400">
