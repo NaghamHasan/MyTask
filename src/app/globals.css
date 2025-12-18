@@ -1,46 +1,37 @@
 @import "tailwindcss";
 
-:root{
+:root {
     --main-color: #19183b;
     --second-color: #E7F2EF;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     background-color: var(--second-color);
 }
 
-.sections > section{
-    margin: 0;
-    padding: 40px 30px;
-    min-height: calc(100vh - 3rem);
-}
-
-.sections > section h1{
-    color: var(--main-color);
-}
-
-.sections > section:nth-child(even){
-    background-color: #a1c2bd;
-}
-
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-color{
+.main-color {
     background-color: var(--main-color);
 }
 
-.main-text-color{
+.main-text-color {
     color: var(--main-color)
 }
 
-.main-button{
+.main-button {
     background-color: var(--main-color);
     color: var(--second-color);
     border-radius: 20px;
@@ -48,8 +39,8 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-.main-button:hover{
+
+.main-button:hover {
     transform: translateY(-5px);
     transition-duration: 0.3s;
 }
-

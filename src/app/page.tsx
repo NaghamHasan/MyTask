@@ -4,6 +4,8 @@ import Header from "@/components/header/header";
 import HeroSection from "@/components/HeroSection";
 import Testimonial from "@/components/Testimonial";
 import Work from "@/components/Work/Work";
+import "../Css/sections.css"
+
 export default function Home() {
   return (
     <div className="min-h-screen main-page font-sans">

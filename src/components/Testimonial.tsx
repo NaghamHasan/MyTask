@@ -9,7 +9,7 @@ const Testimonial = () => {
         desc="Trusted by thousands of teams"
       />
       <div className="max-w-4xl mx-auto px-6">
-        <div className="relative bg-[#E7F2EF] p-10 md:p-9 rounded-4xl shadow-sm border border-slate-100 overflow-hidden">
+        <div className="relative bg-[#E7F2EF] p-10 md:p-9 mb-5 rounded-4xl shadow-sm border border-slate-100 overflow-hidden">
           <div className="relative z-8 text-center">
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 main-color rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">

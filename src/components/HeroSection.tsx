@@ -1,5 +1,9 @@
 import React from "react";
 import HeroSvg from "./svgs/HeroSvg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
+import "../Css/hero.css"
 
 const HeroSection = () => {
   return (
@@ -15,9 +19,14 @@ const HeroSection = () => {
           </p>
           <button className="main-button mt-5">Get Started</button>
         </div>
-        <div className="hidden md:inline-block md:w-[50%]">
+        <div className="img hidden md:inline-block md:w-[50%]">
           <HeroSvg />
         </div>
+      </div>
+      <div className="angle main-text-color">
+        <Link href={"#features"}>
+          <FontAwesomeIcon icon={faAngleDoubleDown} />
+        </Link>
       </div>
     </section>
   );

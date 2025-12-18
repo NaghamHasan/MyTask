@@ -1,3 +1,5 @@
+import "../../Css/work.css"
+
 interface WorkStepParams {
     num: string,
     step: string,
@@ -5,7 +7,7 @@ interface WorkStepParams {
 }
 const WorkStep = ({num,step,desc}: WorkStepParams) => {
   return (
-    <div className="text-center flex flex-col items-center mb-4 md:m-0 shadow py-10 px-5 rounded-2xl">
+    <div className="text-center workStep relative flex flex-col items-center mb-4 md:m-0 shadow py-10 px-5 rounded-2xl">
             <div className="w-16 h-16 main-color text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-blue-200">
               {num}
             </div>

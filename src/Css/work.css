@@ -1,0 +1,25 @@
+
+.workStep {
+    transition-duration: var(--main-duration);
+}
+
+.workStep:hover {
+    transform: translateY(-20px);
+    transition-duration: var(--main-duration);
+}
+
+.workStep::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 4px;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+    transition-duration: var(--main-duration);
+}
+
+.workStep:hover::before {
+    width: 100%;
+}

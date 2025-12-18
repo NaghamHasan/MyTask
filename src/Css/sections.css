@@ -1,0 +1,18 @@
+:root {
+    --main-color: #19183b;
+    --main-duration: 0.3s;
+}
+
+.sections>section {
+    margin: 0;
+    padding: 90px 30px;
+    min-height: fit-content;
+}
+
+.sections>section:nth-child(even) {
+    background-color: #a1c2bd;
+}
+
+.sections>section h1 {
+    color: var(--main-color);
+}
